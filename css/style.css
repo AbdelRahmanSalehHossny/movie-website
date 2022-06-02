@@ -307,7 +307,8 @@ section {
     margin-bottom: 40px;
 }
 .Gallery span ,
-.About span {
+.About span ,
+.Product span {
     color: #666;
 }
 .Gallery .container-box {
@@ -681,9 +682,6 @@ section {
 .Product {
     background-color: #eee;
 }
-.Product span {
-    color: #666;
-}
 .Product .container-box {
     display: grid;
     grid-template-columns: repeat(4 , 250px);
@@ -694,6 +692,7 @@ section {
     background-color: white;
     text-align: center;
     padding: 20px;
+    transition: .5s linear;
 }
 .Product .container-box .box:hover {
     box-shadow: 0 1px 7px blue;
@@ -731,11 +730,6 @@ section {
 .Product .container-box .box a:hover {
     transform: scale(1.1);
 }
-
-
-
-
-
 
 
 @media (max-width: 990px) {
