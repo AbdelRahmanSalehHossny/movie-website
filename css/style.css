@@ -196,12 +196,14 @@ html {
     font-family: sans-serif;
     color: red;
     margin-bottom: 15px;
+    letter-spacing: 5px;
 }
 .Home .content h1 {
     font-size: 60px;
     color: white;
     font-family: sans-serif;
     margin-bottom: 15px;
+    letter-spacing: 5px;
 }
 .Home .content p {
     color: white;
