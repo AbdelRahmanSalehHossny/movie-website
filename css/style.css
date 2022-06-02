@@ -113,6 +113,10 @@ html {
         top: calc(100% + 20px);
         display: none;
     }
+    .header .navbar a:hover::after {
+        left: 0;
+        width: 0;
+    }
     .header .navbar ul::before {
         content: "";
         position: absolute;
@@ -537,7 +541,9 @@ section {
         width: 270px;
     }
     .About .container .img img {
-        width: 270px;
+        display: block;
+        width: 325px;
+        margin: auto;
     }
     .About .container .content {
         width: 270px;
