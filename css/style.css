@@ -542,9 +542,7 @@ section {
         width: 270px;
     }
     .About .container .img img {
-        display: block;
         width: 325px;
-        margin: auto;
     }
     .About .container .content {
         width: 270px;
