@@ -686,7 +686,7 @@ section {
 }
 .Product .container-box {
     display: grid;
-    grid-template-columns: repeat(4 , 250px);
+    grid-template-columns: repeat(4 , 400px);
     justify-content: center;
     gap: 15px;
 }
@@ -695,6 +695,7 @@ section {
     text-align: center;
     padding: 20px;
     transition: .5s linear;
+    width: 360px;
 }
 .Product .container-box .box:hover {
     box-shadow: 0 1px 7px blue;
@@ -737,7 +738,7 @@ section {
 @media (max-width: 990px) {
     .Product .container-box {
         display: grid;
-        grid-template-columns: repeat(2 , 280px);
+        grid-template-columns: repeat(2 , 360px);
         justify-content: center;
         gap: 25px;
     }
@@ -746,8 +747,11 @@ section {
 @media (max-width: 768px) {
     .Product .container-box {
         display: grid;
-        grid-template-columns: 280px;
+        grid-template-columns: 300px;
         justify-content: center;
+    }
+    .Product .container-box .box {
+        width: 296px;
     }
 }
 /* End Product */
